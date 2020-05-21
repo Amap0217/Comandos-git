@@ -1,0 +1,26 @@
+git init
+Branches: Guarda la informacion del ultimo commit de cada rama
+Info: Guarda el archivo gitignore, donde se especifican los archivos a ignorar.
+Config: Guarda la informacion de configuracion especifica del proyecto. Estas configuraciones sobreescribenlas configuraciones globales
+Hooks: Guarda los scripts creados por el usuario, que podemos usar por ejemplo para informar al resto del equipo cada vez que se haga un commit.
+
+echo "main(void){}" > programa.c
+git add programa.c
+git commit -m "Commit incial"
+
+
+git cat-file -t 234324   "si es arbol o commit" 
+git cat-file -p 345345    "donde se encuentra" 
+
+git ls-files -s         "mostrar"
+
+
+git commit -am "descripcion"        git add+git commit
+
+agregar un archivo
+echo "archivo" > archivio.txt
+crear rama 
+git branch nombre
+cambiarse a la nueva rama
+git checkout nueva-rama
+
